@@ -1,0 +1,270 @@
+/*root elemnts styleing for entire body */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #8096eb;
+}
+
+.column img {
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+
+/*color change for top navigationan bar*/
+a:hover {
+color: blue;
+background-color: whitesmoke;
+}
+
+/* Styling for header and footer emelents */
+.header,
+.footer {
+    padding: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    background-color: #2a607c;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Color design in heading*/
+
+.header h1 .H {
+    color: rgb(138, 114, 144);
+}
+
+
+/* Header Attributes*/
+
+.header div,
+.footer div {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+}
+
+.contact {
+    width: 100%;
+    text-align: center;
+    display :inline-flex;
+}
+
+#contact_me {
+    margin-left: 30px;
+}
+
+.header div ul,
+.footer div ul {
+    list-style-type: none;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+
+/* navigation bar link attributes */
+
+.header div ul li,
+.footer div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    border-bottom: 3px solid #fff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.column p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+/* Main photo image attributes */
+
+.hero {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-position: center;
+}
+
+.float-left {
+    float: right;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.flex-container {
+    display: flex;
+    }
+
+.content {
+    display: flex;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+}
+
+/* self discription */
+.About_me {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    float: right;
+}
+
+/* links to the botton navigation*/
+.Links {
+    margin-left: 0px;
+    padding: 40px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #2589bd;
+    border-left: 5px #d9dcd6;
+    font-size: larger;
+}
+
+.my_profile,
+.workprojects {
+    margin-bottom: 45px;
+    padding-top: 5px;
+    color: #ffffff;
+    height: 210px;
+    text-align: center;
+}
+
+
+/* class for container attributes */
+
+.me,
+.my_works {
+    margin-bottom: 0px;
+    padding: 0px;
+    height: auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    border-left: 2px black;
+}
+
+.my_works {
+    display: inline-flex;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+}
+
+.About_me h2,
+.my_works h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 10px;
+    clear: both;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    text-align: left;
+    display: flex;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+.row {
+    display: flex;
+    border-left: 4px solid black;
+    flex-direction: row;
+    }
+.row1 .row2{
+   display:flex;
+   margin:4em 1em ;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: nowrap;
+}
+
+
+.column {
+    padding: 5px;
+    font-size: 22px;
+}
+.column1 ,.column2, .column3, .column4 {
+    width:650px;
+    height:250px;
+    margin:5px;
+    border: 2px Solid rgb(66, 71, 56);
+    box-shadow:0px 0px 10px 5px grey ;
+    padding: 5px;
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 22px;
+    position: relative;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+    }
+.column1 {
+        background-image: url(abc.jpg);
+       
+        }
+.column2 {
+    background-image: url(chromw1.jpg);
+}
+.column3 {
+    background-image: url(dims.jpg);
+}
+.column4 {
+    background-image: url(technology.jpg);
+}
+    .column1 >div, .column2 >div, .column3 >div, .column4 >div {
+        background-color: #2a607c;
+        height: 45px;
+        width: 75px;
+    }
+
+    .seperator {
+    background-image: url(r.jpg);
+    width: 100%;
+    height: 100px;
+
+}
+.seperator img {
+    width: 100%;
+    height:100%;
+    float:center;
+}
+/* screen responsiveness to differnt width*/
+@media screen and (max-width: 768px) {
+    .header, .footer, .links {
+      flex-direction: column;
+      background-color: #35afcb;
+    }}
