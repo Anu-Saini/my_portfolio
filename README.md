@@ -18,4 +18,4 @@ Resume.doc
 style.css
 
 * the is the web page looks like the below image whenopen in a full size browser.
-![what is this](/resources/myprofessional_portfolio.jpg)
+![what is this](./resources/mainpage.jpg)
