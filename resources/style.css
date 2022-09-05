@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #8096eb;
+    background-color: aliceblue;
 }
 
 .column img {
@@ -26,8 +26,8 @@ background-color: whitesmoke;
 .footer {
     padding: 10px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    background-color: #2a607c;
-    color: whitesmoke;
+    background-color: aliceblue;
+    color: darkgrey;
     display: flex;
     justify-content: space-between;
 }
@@ -84,7 +84,7 @@ background-color: whitesmoke;
 }
 
 a {
-    color: #ffffff;
+    color: darkgrey;
     text-decoration: none;
 }
 
@@ -141,7 +141,7 @@ a {
     width: 20%;
     height: auto;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #2589bd;
+    background-color: aliceblue;
     border-left: 5px #d9dcd6;
     font-size: larger;
 }
@@ -150,7 +150,7 @@ a {
 .workprojects {
     margin-bottom: 45px;
     padding-top: 5px;
-    color: #ffffff;
+    color:darkgrey;
     height: 210px;
     text-align: center;
 }
@@ -164,7 +164,7 @@ a {
     padding: 0px;
     height: auto;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #0072bb;
+    background-color: aliceblue;
     color: #ffffff;
     border-left: 2px black;
 }
@@ -233,7 +233,7 @@ a {
     background-size: 100% 100%;
     }
 .column1 {
-        background-image: url(abc.jpg);
+        background-image: url(01_mainpage.jpg);
        
         }
 .column2 {
@@ -246,15 +246,15 @@ a {
     background-image: url(technology.jpg);
 }
     .column1 >div, .column2 >div, .column3 >div, .column4 >div {
-        background-color: #2a607c;
-        height: 45px;
-        width: 75px;
+        background-color: black;
+        height: 75px;
+        width: 100px;
     }
 
     .seperator {
-    background-image: url(r.jpg);
+    background-image: url(bin.png);
     width: 100%;
-    height: 100px;
+    height: 300px;
 
 }
 .seperator img {
@@ -263,8 +263,11 @@ a {
     float:center;
 }
 /* screen responsiveness to differnt width*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
     .header, .footer, .links {
       flex-direction: column;
       background-color: #35afcb;
     }}
+    .column1, .column2 , .column3 , .column4 {
+        min-width: 50%;
+    }
